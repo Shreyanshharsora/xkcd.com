@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+card {
+  align-self: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #00000020;
+  border-radius: .25rem;
+  width: max-content !important;
+  /* align-items: center; */
+  /* justify-content: center; */
+}

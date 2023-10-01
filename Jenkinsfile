@@ -7,7 +7,8 @@ pipeline {
     stage('Build') {
       steps {
         sh 'npm install'
-         sh '<<Build Command>>'
+         sh 'npm start'
+         sh 'echo "application started"'
       }
     }  
     
